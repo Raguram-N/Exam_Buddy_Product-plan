@@ -2,6 +2,8 @@
 
 A voice-first educational platform that helps students revise, clarify concepts, and test their knowledge through conversational learning while providing teachers with actionable academic insights.
 
+[Prototype - Figma](https://www.figma.com/make/VtVqKu62hdgIBLsaM3zc89/Create-prototype?fullscreen=1&t=TqM3V2UvLAIkrLgq-1&code-node-id=0-9)
+
 ---
 
 # 📱 Application Flow
