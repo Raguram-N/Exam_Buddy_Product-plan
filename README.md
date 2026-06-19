@@ -39,9 +39,12 @@ ExamBuddy AI helps students learn through voice conversations and helps teachers
 - Most platforms provide content.
 - Most school systems track attendance and marks.
 - Most AI tutors answer questions.
-- Every question helps students learn better and helps teachers teach better.
 
-> **ExamBuddy turns student learning conversations into classroom intelligence.**
+**But our Exambuddy**
+
+- ExamBuddy turns student learning conversations into classroom intelligence.
+
+- Every question helps students learn better and helps teachers teach better.
 
 ---
 
