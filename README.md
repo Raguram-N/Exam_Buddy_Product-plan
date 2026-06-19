@@ -1,233 +1,317 @@
-# **ExamBuddy AI – Product Design Document**
+# 🎓 ExamBuddy AI – Prototype Design
 
-### *A syllabus-aligned, teacher-guided, student-driven learning and revision system*
-
----
-
-## 1. Product Overview
-
-ExamBuddy AI is a **hybrid learning system** designed for schools to improve student performance through:
-
-* Daily syllabus-aligned revision
-* Teacher-guided exam preparation
-* Student-driven doubt solving
-* Data-driven academic intervention
-
-It works as a **24/7 learning companion + exam revision engine**, especially effective during tests, midterms, and board exams.
+A voice-first educational platform that helps students revise, clarify concepts, and test their knowledge through conversational learning while providing teachers with actionable academic insights.
 
 ---
 
-## 2. Core Product Flow
+# 📱 Application Flow
 
-### 2.1 Student Experience (Always Available Mode)
+The application consists of two completely separate user journeys:
 
-* Each student gets a unique school-linked login
+1. Student Portal
+2. Teacher Portal
 
-* Student selects:
+Students focus on learning.
 
-  * Class
-  * Subject
-  * Chapter
-
-* Student clicks **“Start Learning / Call Session”**
-
-* AI begins an interactive session:
-
-  * Concept explanation OR knowledge check mode
-  * Conversation-based Q&A
-  * Instant correction with explanations
-  * Limited structured session (controlled engagement flow)
-
-* Daily usage is capped (example: 20 interactions/day) to ensure focused learning behavior
+Teachers focus on monitoring and guidance.
 
 ---
 
-### 2.2 Teacher Experience (Control + Insight Layer)
+# 🚪 Screen 1 – Role Selection
 
-Teachers act as **learning directors**, not daily operators.
+Users begin by selecting their role.
 
-* Teacher dashboard shows:
+### Student Portal
 
-  * Most asked doubts
-  * Weak topics by class/section
-  * Student misconception patterns
-  * Chapter-wise difficulty heatmap
+For students who want to:
 
-* Teacher can:
+* Revise topics
+* Clarify concepts
+* Take knowledge checks
+* Interact with the AI Mentor
 
-  * Select any chapter/topic (e.g., Photosynthesis)
-  * Trigger **exam-ready revision notification**
-  * Assign targeted revision before tests
+### Teacher Portal
+
+For teachers who want to:
+
+* Monitor student learning
+* Analyze weak and strong topics
+* Track engagement
+* Assign revision topics
 
 ---
 
-### 2.3 Teacher-Triggered Learning Mode (Exam Mode)
+# 👨‍🎓 Student Journey
 
-This is the **high-impact feature for schools**
+## Student Login
+
+Students authenticate using:
+
+* Student ID
+* Password
+
+---
+
+## Student Home
+
+After login, students can configure their learning session.
+
+### Academic Selection
+
+Students choose:
+
+* Standard / Class
+* Subject
+* Chapter
+* Topic (Optional)
 
 Example:
 
-* Teacher selects: *Photosynthesis*
-* System sends notification to students:
-
-  * “Tomorrow’s test topic: Photosynthesis – Ready for revision?”
-
-Student can:
-
-* Revise summary
-* Take knowledge check
-* Practice bookback-level questions
-
-👉 This creates **structured pre-exam preparation flow**
+* Class 8
+* Science
+* Photosynthesis
+* Chlorophyll
 
 ---
 
-## 3. Key Differentiators
+## Learning Modes
 
-### 3.1 Dual Learning System (Unique Core)
+Students can select one learning objective.
 
-ExamBuddy AI is built on two combined modes:
+### ⚡ Quick Revision
 
-* **Student-driven exploration (anytime doubt solving)**
-* **Teacher-driven exam preparation (structured revision)**
+Provides:
 
-Most tools do only one. This does both.
-
----
-
-### 3.2 Syllabus-Locked Intelligence
-
-* Entire system is tightly aligned to:
-
-  * NCERT
-  * Samacheer Kalvi
-  * School textbooks
-
-* Prevents irrelevant or out-of-syllabus distractions
-
-* Keeps learning exam-focused and predictable
+* Exam-focused summary
+* Important concepts
+* Key definitions
+* Quick revision notes
 
 ---
 
-### 3.3 Learning Analytics as School Intelligence Layer
+### 📚 Concept Clarity
 
-Schools get a **real-time academic insight system**:
+Provides:
 
-* Frequently asked doubts (topic heatmap)
-* Weak chapters per class
-* Student confusion patterns
-* Exam readiness indicators
-
-👉 Enables schools to act early, not after results
+* Teacher-like explanations
+* Doubt clarification
+* Interactive discussion
+* Simplified learning
 
 ---
 
-## 4. Success Impact Model (Why This Works)
+### 🧠 Knowledge Check
 
-### 4.1 For Students
+Provides:
 
-* Faster revision before exams
-* Instant doubt resolution
-* Better retention through active recall
-* Structured exam preparation flow
+* Topic-based questions
+* Active recall practice
+* Instant feedback
+* Explanation for incorrect answers
 
-👉 Outcome: **Improved marks with less stress**
-
----
-
-### 4.2 For Teachers
-
-* Reduced repetitive doubt workload
-* Clear visibility into weak topics
-* Data-driven revision planning
-* Ability to focus on high-impact teaching
-
-👉 Outcome: **Smarter teaching, not harder teaching**
+Only one learning mode can be active per session.
 
 ---
 
-### 4.3 For Schools (Key Business Value)
+## Teacher Recommendation
 
-This is the strongest adoption driver:
+If a teacher has assigned a revision topic, students receive a recommendation card.
 
-* Position as **“24/7 AI-supported learning school”**
-* Differentiation in competitive school market
-* Marketing advantage for admissions
-* Proof of academic improvement via data insights
+Example:
 
-👉 Example impact:
+**Tomorrow's Science Test**
 
-* If multiple students struggle in “Photosynthesis”
-* School conducts focused revision session
-* One student performs exceptionally in exam
-* School uses it as **performance branding**
+Topic: Photosynthesis
 
-👉 Outcome: **Direct improvement in reputation + enrollment appeal**
+Students can directly begin revision from this recommendation.
 
 ---
 
-## 5. Cost-Optimized Architecture (Business Viability)
+## Call Mentor
 
-* Uses **structured syllabus chunks instead of heavy AI generation**
-* Minimizes expensive real-time reasoning usage
-* Controlled interaction limits reduce cost spikes
-* Heavy reliance on pre-structured educational content
+Students initiate a voice session using the Call Mentor button.
 
-👉 Result:
+Session behavior depends on the selected learning mode.
 
-* Low per-student cost
-* High-margin school subscription model
-* Scalable across thousands of students per school
+### Quick Revision
 
----
+AI provides a concise revision session.
 
-## 6. Business Positioning
+### Concept Clarity
 
-ExamBuddy AI is not positioned as:
+AI provides guided explanations and answers questions.
 
-❌ A chatbot
-❌ A tutoring replacement
-❌ A content platform
+### Knowledge Check
 
-It is positioned as:
-
-✅ A **school performance improvement system**
-✅ A **daily revision + exam readiness engine**
-✅ A **teacher-assisted student performance tracker**
+AI evaluates understanding through interactive questioning.
 
 ---
 
-## 7. Why This Has Strong Success Potential
+## Voice Session
 
-This model works because it aligns with 3 real-world forces:
+The session interface includes:
 
-### 1. Exam Pressure Cycle
+* Topic information
+* Selected learning mode
+* AI Mentor avatar
+* Voice wave animation
+* Conversation history
 
-Students already revise heavily before exams → natural usage peak
+Controls:
 
-### 2. School Competition
-
-Schools constantly seek:
-
-* better results
-* better branding
-* differentiation
-
-### 3. Low Behavioral Change Requirement
-
-* Students already study chapters
-* Teachers already assign topics
-  👉 You are only enhancing existing behavior, not replacing it
+* Microphone
+* Mute
+* End Session
 
 ---
 
-## 8. Final Positioning Statement
+## Session Summary
 
-ExamBuddy AI succeeds not by replacing teachers or books,
-but by becoming the **intelligent layer between teaching and revision**, ensuring that:
+After each session students receive:
 
-> Every taught topic becomes a measurable learning outcome.
+* Questions Attempted
+* Correct Answers
+* Weak Areas
+* Recommended Topics
 
+This encourages focused improvement and revision.
 
+---
 
-Just tell me.
+# 👨‍🏫 Teacher Journey
+
+## Teacher Login
+
+Teachers authenticate using:
+
+* Teacher ID
+* Password
+
+---
+
+## Teacher Dashboard
+
+The teacher dashboard provides academic visibility across students and classes.
+
+### Summary Metrics
+
+* Total Students
+* Active Students Today
+* Topics Revised Today
+* Average Knowledge Score
+
+---
+
+## Learning Analytics
+
+Teachers can monitor:
+
+### Most Asked Doubts
+
+Frequently discussed concepts.
+
+### Weakest Topics
+
+Topics requiring intervention.
+
+### Strongest Topics
+
+Areas where students perform well.
+
+### Chapter Performance
+
+Performance trends by chapter.
+
+### Class Performance
+
+Performance comparison across sections.
+
+### Engagement Trends
+
+Student participation and usage patterns.
+
+### Topic Heatmap
+
+Visual representation of topic difficulty and interest.
+
+---
+
+## Student Insight Center
+
+Teachers can identify:
+
+* Students needing attention
+* Frequently failed concepts
+* Frequently searched topics
+* Low engagement students
+* High performing students
+
+This helps teachers provide targeted support.
+
+---
+
+## Topic Assignment
+
+Teachers can proactively guide revision.
+
+### Select
+
+* Class
+* Subject
+* Chapter
+* Topic
+
+Example:
+
+Class 8 → Science → Photosynthesis
+
+### Send Revision Notification
+
+Example Notification:
+
+> Tomorrow's Science Test: Photosynthesis. Complete your revision before 8 PM.
+
+Assigned topics appear directly in the student's application.
+
+---
+
+## Student Analytics Detail
+
+Teachers can view individual student performance.
+
+### Available Information
+
+* Student Name
+* Revision Sessions Completed
+* Knowledge Check Scores
+* Weak Areas
+* Strong Areas
+* Recent Activity
+* Frequently Asked Questions
+* Recommended Teacher Actions
+
+---
+
+# 🎯 Product Principles
+
+### Student-Focused Learning
+
+Students receive simple, conversational learning experiences.
+
+### Teacher-Guided Revision
+
+Teachers can direct revision when needed without managing daily interactions.
+
+### Voice-First Experience
+
+Learning happens through natural conversation rather than traditional forms and worksheets.
+
+### Data-Driven Teaching
+
+Teachers receive actionable insights that help improve classroom outcomes.
+
+---
+
+# 🌟 Vision
+
+ExamBuddy AI aims to become the intelligent layer between classroom teaching and student revision, helping every taught topic become a measurable learning outcome through conversational learning and teacher-guided academic insights.
